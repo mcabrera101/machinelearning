@@ -8,6 +8,6 @@ df_reorder.to_csv('HappinessData-1.csv', index=False)
 
 #Task3
 for i in df_reorder:
-    df_reorder[i] = df_reorder[i].fillna(float("{:,.2f}".format(df_reorder[i].mean())))
+    df_reorder[i] = df_reorder[i].fillna(int(df_reorder[i].mean()))
 
 df_reorder.to_csv('HappinessData-1.csv', index=False)
