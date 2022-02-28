@@ -12,10 +12,12 @@ features = raw_features[['City Services Availability', 'Housing Cost', 'Quality 
 features.to_csv('HappinessData-1.csv', index=False)
 
 #Task3
+last_column = features.iloc[:, -1]
+print(last_column)
 for feature in features:
     features[feature] = features[feature].fillna(int(features[feature].mean()))
-    #if feature+1 != features[-1]:
-        #corr, _ = pearsonr(features[feature], features[feature+1])
+    corr, _ = pearsonr(features[feature], features[feature+1])
+
 
 
 
