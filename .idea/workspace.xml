@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c80d994-fb69-4a52-8ff6-8899d1fe1b93" name="Changes" comment="updated task 3 to put integers into the csv file instead of the float">
+    <list default="true" id="3c80d994-fb69-4a52-8ff6-8899d1fe1b93" name="Changes" comment="tried to merge task 3 and 4 to a for loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one.py" beforeDir="false" afterPath="$PROJECT_DIR$/one.py" afterDir="false" />
+    </list>
+    <list id="5de6dc73-5a3d-4614-b720-1fd7aa576214" name="Changes by User" comment="">
       <change beforePath="$PROJECT_DIR$/one.py" beforeDir="false" afterPath="$PROJECT_DIR$/one.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +18,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/one.py">
+      <ranges>
+        <range start1="14" end1="16" start2="14" end2="16" changelist="3c80d994-fb69-4a52-8ff6-8899d1fe1b93" />
+        <range start1="17" end1="17" start2="17" end2="19" changelist="3c80d994-fb69-4a52-8ff6-8899d1fe1b93" />
+        <range start1="18" end1="20" start2="20" end2="33" changelist="3c80d994-fb69-4a52-8ff6-8899d1fe1b93" />
+        <range start1="28" end1="28" start2="41" end2="42" changelist="5de6dc73-5a3d-4614-b720-1fd7aa576214" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,7 +60,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -126,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646075011680</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tried to merge task 3 and 4 to a for loop">
+      <created>1646077097316</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1646077097316</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +164,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update" />
     <MESSAGE value="updated task 3 to put integers into the csv file instead of the float" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated task 3 to put integers into the csv file instead of the float" />
+    <MESSAGE value="tried to merge task 3 and 4 to a for loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried to merge task 3 and 4 to a for loop" />
   </component>
 </project>
