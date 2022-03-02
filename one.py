@@ -31,7 +31,3 @@ for feature in features:
 features.to_csv('HappinessData-1.csv', index=False)
 
 
-
-#task4
-
-#print(corr)
