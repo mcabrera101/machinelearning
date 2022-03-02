@@ -39,5 +39,6 @@ plt.figure()
 plt.scatter(features['City Services Availability'], features['Housing Cost'], c=features['Unhappy/Happy'], cmap=cmap,
             edgecolor='k', s=20)
 plt.show()
+d = eucledi
 k = 5
 model = KNN(k)
