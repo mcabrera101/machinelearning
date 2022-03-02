@@ -17,6 +17,7 @@ features.to_csv('HappinessData-1.csv', index=False)
 print(features)
 #Task 3 and 4
 
+
 index = 0
 for feature in features:
     it = iter(features)
